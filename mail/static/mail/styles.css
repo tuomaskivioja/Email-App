@@ -1,0 +1,21 @@
+textarea {
+    min-height: 400px;
+}
+
+#emails-view {
+    flex-direction: column;
+    row-gap: 10px;
+    column-gap: 5%;
+}
+
+.email-div {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.btn-info, .btn-secondary, .btn-primary {
+    height: 35px;
+    max-width: 105px;
+}
